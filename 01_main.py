@@ -22,7 +22,7 @@ def getCalibrationValue(input):
     return sum
     
 
-inputArray = readDocument('01_input')
+inputArray = readDocument('01_input.txt')
 calibrationValue = getCalibrationValue(inputArray)
 print("The calibration value in part 1 is: " +  str(calibrationValue))
 
